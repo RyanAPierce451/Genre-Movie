@@ -1,0 +1,122 @@
+/* Master Styles */
+html,body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: #140a08;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #140a08;
+}
+
+h1{
+  position: relative;
+  
+  bottom:-00px;
+  color: rgb(249, 249, 249);
+  font-size: 2.1em;
+  letter-spacing: 2px;
+  margin-bottom: -65px;
+  margin-left: 50%;
+   
+   
+}
+
+h2{
+  color: rgb(249, 249, 249);
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  width: 1080px;
+  height: 200px;
+  position: fixed;
+  
+ 
+  
+  
+}
+
+/* Side Nav Styles */
+
+.wrapper{
+    display: flex;
+    position: relative;
+  }
+  
+  .wrapper .sidebar{
+    width: 190px;
+    height: 890px;
+    max-height: 900px;
+    background: #141415;
+    padding: 30px 0px;
+    position: absolute; left: -10px;
+  }
+  
+  .wrapper .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    list-style: none
+    
+  }    
+  
+  .wrapper .sidebar ul li a{
+    color: #bdb8d7;
+    display: block;
+    text-decoration: none;
+  }
+  
+
+  .wrapper .sidebar ul li:hover{
+    background-color: #594f8d;
+  }
+      
+  .wrapper .sidebar ul li:hover a{
+    color: #fff;
+  }
+
+ /* Image Grid */ 
+.movie-items-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px 10px;
+    background-color: #140a08;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.movie-item-wrapper {
+    position: absolute; left: 12em;
+    height: 844px;
+    width: 26%;
+    max-width: 26%;
+    border: 5px solid black;
+}
+
+.movie-img-background {
+  height: 100%;
+    width: 100%;
+    max-height: 950px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    
+}
+
+.img-text-wrapper {
+    position: absolute;
+    top:0px;
+    height: 100%;
+    width: 100%;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+}
+
+
