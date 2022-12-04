@@ -1,0 +1,130 @@
+/* Master Styles */
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+    background-color: #140a08;
+    min-width: 1500px;
+    min-zoom: 95%;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #140a08;
+}
+
+h1{
+  position: relative;
+  
+  bottom:-00px;
+  color: rgb(249, 249, 249);
+  font-size: 2.1em;
+  letter-spacing: 2px;
+  margin-bottom: -65px;
+  margin-left: 51.5%;
+   
+   
+}
+
+/* Side Nav Styles */
+
+.wrapper{
+    display: flex;
+    position: relative;
+  }
+  
+  .wrapper .sidebar{
+    width: 190px;
+    height: 5190px;
+    background: #141415;
+    padding: 30px 0px;
+    position: absolute; left: -10px;
+  }
+  
+  .wrapper .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    list-style: none
+    
+  }    
+  
+  .wrapper .sidebar ul li a{
+    color: #bdb8d7;
+    display: block;
+    text-decoration: none;
+  }
+  
+
+  .wrapper .sidebar ul li:hover{
+    background-color: #594f8d;
+  }
+      
+  .wrapper .sidebar ul li:hover a{
+    color: #fff;
+  }
+
+ /* Image Grid */ 
+.movie-items-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px 10px;
+    background-color: #140a08;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.movie-item-wrapper {
+    position: relative; left: 90px;
+}
+
+.movie-img-background {
+    height: 850px;
+    width: 100%;
+    max-height: 950px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    
+}
+
+.img-text-wrapper {
+    position: absolute;
+    top:0px;
+    height: 100%;
+    width: 100%;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+}
+
+.img-text-wrapper .subtitle {
+    font-weight: 400;
+    color: transparent;
+    transition: 0.5s;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 55%;
+    box-sizing: border-box;
+    font-size: 1.1em;
+    letter-spacing: 2px
+}
+
+.img-text-wrapper:hover .subtitle{
+    font-weight: 400;
+    
+    color: rgb(190, 237, 252);
+}
+
+.img-darken {
+    transition: 1s ease;
+    filter: brightness(10%);
+}
+
